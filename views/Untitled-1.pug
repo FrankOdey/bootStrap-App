@@ -1,0 +1,74 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')    
+    meta(name='description', content='')  
+    meta(name='author', content='Mark Otto, Jacob Thornton, and Bootstrap contributors') 
+    meta(name='generator', content='Jekyll v3.8.5')     
+    title #{title}: BootStrap &middot; Application
+    link(rel='canonical', href='https://getbootstrap.com/docs/4.3/examples/jumbotron/')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://getbootstrap.com/docs/4.3/examples/jumbotron/jumbotron.css')
+  body
+    nav.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-dark
+      a.navbar-brand(href='#') BootStrapp App.
+
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExampleDefault', aria-controls='navbarsExampleDefault', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarsExampleDefault.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item.active
+            a.nav-link(href='/') Home 
+              span.sr-only (current)
+          li.nav-item
+            a.nav-link(href='/contact') Contact
+          li.nav-item
+            a.nav-link(href='/aboutus') About Us
+          li.nav-item
+            a.nav-link(href='/team') Our Team
+        form.form-inline.my-2.my-lg-0
+          input.form-control.mr-sm-2(type='text', placeholder='Search', aria-label='Search')
+          button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Search
+    main(role='main')
+      //Main jumbotron for a primary marketing message or call to action-->
+      .jumbotron
+        .container
+          h1.display-3 Welcome! World Best Application, You'll Ever Use!
+          p This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+          p
+            a.btn.btn-primary.btn-lg(href='#', role='button') Learn more &raquo;
+      .container
+        // Example row of columns
+        .row
+          .col-md-4
+            h2 Contact Us
+            p  Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            p
+              a.btn.btn-secondary.btn-lg(href='/contact', role='button') View details &raquo;
+          .col-md-4
+            h2 About Us
+            p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+
+            p
+              a.btn.btn-secondary.btn-lg(href='aboutus', role='button') View details &raquo;
+
+          .col-md-4
+            h2 Our Team
+
+            p Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+            p
+              a.btn.btn-secondary.btn-lg(href='/team', role='button') View details &raquo;
+
+        hr
+      // /container
+    footer.container
+      p &copy; Built by Blusterr Media LLC. 2017-2019
+    script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js')
+
+    script.
+      window.jQuery  document.write('<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"><\\/script>')
+    script(src='/javascripts/bootstrap.js')
+block content

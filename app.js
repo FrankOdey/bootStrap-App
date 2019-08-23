@@ -6,7 +6,7 @@ var logger = require('morgan');
 var nodemailer = require('nodemailer');
 
 var indexRouter = require('./routes/index');
-var about = require('../routes/about')
+var about = require('./routes/about')
 
 var app = express();
 
